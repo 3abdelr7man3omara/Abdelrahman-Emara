@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/sign-in.dart';
-import 'package:online_shop/sign-up.dart';
+import 'package:online_shop/Screens/sign-in.dart';
+import 'package:online_shop/Screens/sign-up.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -16,7 +16,9 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 137, 42, 226),
-        title: const Text("Online Shop",),
+        title: const Text(
+          "Online Shop",
+        ),
         centerTitle: true,
         titleTextStyle: const TextStyle(
             fontFamily: "myfont",
@@ -29,8 +31,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text("Start Your Premium Online Shopping",
-            style: TextStyle(color: Colors.white),),
+            const Text(
+              "Start Your Premium Online Shopping",
+              style: TextStyle(color: Colors.white),
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

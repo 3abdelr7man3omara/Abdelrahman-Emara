@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/shoppingPage.dart';
+import 'package:online_shop/Screens/shoppingPage.dart';
 
 Future<void> showSuccessDialog({
   required BuildContext context,
